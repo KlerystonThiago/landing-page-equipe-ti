@@ -110,4 +110,26 @@ body, html{
   min-height: 500px;
   background-position:right center;
   background-size: cover;
+  position: relative;
+}
+
+.shadow{
+  width: 100%;
+  height: 100%;
+  background-color: purple;
+  position:absolute;
+  opacity: 0.8;
+}
+
+.container-banner{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.row{
+  width: 100%;
+  height: 100%;
+  background-color: purple;
+  position: relative;  
 }

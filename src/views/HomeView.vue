@@ -50,7 +50,12 @@
         </nav>
       </div>
       <div class="container-full background-header" :style="'background-image: url('+backheader+')'">
-        
+        <div class="shadow"></div>
+        <div class="container-banner flex justify-content-center">
+          <div class="container">
+            <h1>Kleryston Thiago</h1>
+          </div>
+        </div>
       </div>
     </header>
 
