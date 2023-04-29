@@ -39,6 +39,12 @@ body, html{
   display: flex;
 }
 
+.flex-direction-column{
+  flex-direction: column;
+}
+
+
+
 .justify-content-between{
   justify-content: space-between;
 }
@@ -54,7 +60,53 @@ body, html{
 .align-items-center{
   align-items: center;
 }
+
+.align-items.stretch{
+  align-items: stretch;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
 /* CLASSES DE FLEX */
+
+/* CLASSES DE TEXT */
+.tc-white{
+  color: white;
+}
+
+.fs-10{
+  font-size: 10px;
+}
+
+.fs-15{
+  font-size: 15px;
+}
+
+.fs-20{
+  font-size: 20px;
+}
+
+.fs-25{
+  font-size: 25px;
+}
+
+.fs-30{
+  font-size: 30px;
+}
+
+.fs-35{
+  font-size: 35px;
+}
+
+.fs-40{
+  font-size: 40px;
+}
+
+.fs-45{
+  font-size: 45px;
+}
+/* CLASSES DE TEXT */
 
 .contacts{
   display: flex;
@@ -107,7 +159,7 @@ body, html{
 }
 
 .background-header{
-  min-height: 500px;
+  min-height: 600px;
   background-position:right center;
   background-size: cover;
   position: relative;
@@ -130,6 +182,88 @@ body, html{
 .row{
   width: 100%;
   height: 100%;
-  background-color: purple;
+  background-color: reds;
   position: relative;  
+}
+
+.col-lg-6{
+  width: 50%;
+  padding: 0px 15px;
+  box-sizing: border-box;
+}
+
+.l-margin-1{
+  margin-left: 5px;
+}
+
+.l-margin-2{
+  margin-left: 10px;
+}
+
+.l-margin-3{
+  margin-left: 15px;
+}
+
+.r-margin-1{
+  margin-right: 5px;
+}
+
+.r-margin-2{
+  margin-right: 10px;
+}
+
+.r-margin-3{
+  margin-right: 15px;
+}
+
+.t-margin-3{
+  margin-top: 15px;
+}
+
+.t-margin-0{
+  margin-top: 0px;
+}
+
+.b-margin-0{
+  margin-bottom: 0px;
+}
+
+.b-margin-1{
+  margin-bottom: 10px;
+}
+
+.b-margin-2{
+  margin-bottom: 20px;
+}
+
+.btn-solid-white{
+  padding: 10px 20px;
+  border: 2px solid white;
+  background-color: white;
+  color: purple;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+
+.btn-solid-white:hover{
+  background-color: transparent;
+  color: white;
+}
+
+.btn-solid-inline{
+  padding: 10px 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+
+.btn-solid-inline:hover{
+  background-color: white;
+  color: purple;
 }

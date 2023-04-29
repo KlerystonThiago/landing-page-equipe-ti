@@ -53,7 +53,23 @@
         <div class="shadow"></div>
         <div class="container-banner flex justify-content-center">
           <div class="container">
-            <h1>Kleryston Thiago</h1>
+            <div class="row flex flex-wrap">
+              <div class="col-lg-6 flex flex-direction-column justify-content-center tc-white" style="background-color: greens;">
+                <h1 class="fs-45 b-margin-2">
+                  Cuidados de Saúde Excepcionais para Mulheres
+                </h1>
+                <p class="t-margin-0">
+                  O melhor médico é aquele que mais esperança inspira. A medicina é o remédio para todas as dores humanas, apenas o amor é um mal que não tem cura. O melhor médico é aquele que recebe os que foram desenganados por todos os outros. Medicina é a arte de compartilhar a vida.
+                </p>
+                <div class="flex t-margin-3">
+                  <button class="btn-solid-white r-margin-3">Agendamentos</button>
+                  <button class="btn-solid-inline">Saiba Mais</button>
+                </div>
+              </div>
+              <div class="col-lg-6" style="background-color: blues;">
+                
+              </div>
+            </div>
           </div>
         </div>
       </div>
